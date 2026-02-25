@@ -9,16 +9,16 @@ import sys
 # and intentionally hard-coded to avoid live scraping at runtime.
 TUITION_RATES = {
     "resident": {
-        "lower_first_10": 123.94,
-        "lower_after_10": 57.78,
-        "upper_first_10": 133.54,
-        "upper_after_10": 67.38,
+        "lower_first_10": 131.96,
+        "lower_after_10": 65.09,
+        "upper_first_10": 255.94,
+        "upper_after_10": 13.29
     },
     "non-resident": {
-        "lower_first_10": 274.84,
-        "lower_after_10": 208.68,
-        "upper_first_10": 284.44,
-        "upper_after_10": 218.28,
+        "lower_first_10": 339.30,
+        "lower_after_10": 73.57,
+        "upper_first_10": 718.88,
+        "upper_after_10": 14.30
     },
 }
 
